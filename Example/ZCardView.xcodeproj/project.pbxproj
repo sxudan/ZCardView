@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C0967D0A5A30F271CF2B234 /* Pods_ZCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FB47A926AD55665B905099 /* Pods-ZCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCardView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZCardView_Tests/Pods-ZCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6127A39076D8B273D290F84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA9F0C505AB5D2B942394A3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6127A39076D8B273D290F84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA9F0C505AB5D2B942394A3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CB81937F760E902AA43B877D /* Pods_ZCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC42E4E3131AD5E95E26A72 /* Pods-ZCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCardView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZCardView_Example/Pods-ZCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F9A7107E122509A34CF1297E /* ZCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZCardView.podspec; path = ../ZCardView.podspec; sourceTree = "<group>"; };
+		F9A7107E122509A34CF1297E /* ZCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZCardView.podspec; path = ../ZCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				82FB47A926AD55665B905099 /* Pods-ZCardView_Tests.debug.xcconfig */,
 				15328A80A29088A9227A0214 /* Pods-ZCardView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
