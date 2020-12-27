@@ -29,7 +29,7 @@ For a imageview to be rounded with shadow, Add a imageview inside a card view an
         super.viewDidLoad()
         
         //Create a Card
-        let card = ZCardView(frame: CGRect(x: 0, y: 0, width: 250, height: 100))
+        let card = ZCardView(frame: CGRect(x: 0, y: 0, width: 250, height: 100)) //ZCardView or ZCardButton
         card.backgroundColor = .white
         card.shadowColor = .darkGray
         card.radius = card.frame.height / 2.0
@@ -54,6 +54,15 @@ For a imageview to be rounded with shadow, Add a imageview inside a card view an
         
         
       }
+      
+      
+# ZCardView
+
+For UIView
+
+# ZCardButton
+
+For UIButton
 
 ## Properties
 
